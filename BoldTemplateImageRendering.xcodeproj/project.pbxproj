@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22275AE51EE9FB290058A4AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22275AE41EE9FB290058A4AA /* Main.storyboard */; };
 		2251EBB61EE9F4A300E4F184 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2251EBB51EE9F4A300E4F184 /* AppDelegate.swift */; };
 		2251EBB81EE9F4A300E4F184 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2251EBB71EE9F4A300E4F184 /* ViewController.swift */; };
-		2251EBBB1EE9F4A300E4F184 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2251EBB91EE9F4A300E4F184 /* Main.storyboard */; };
 		2251EBBD1EE9F4A300E4F184 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2251EBBC1EE9F4A300E4F184 /* Assets.xcassets */; };
 		2251EBC01EE9F4A300E4F184 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2251EBBE1EE9F4A300E4F184 /* LaunchScreen.storyboard */; };
+		22A613671EE9FD33003A09A7 /* boxes.png in Resources */ = {isa = PBXBuildFile; fileRef = 2251EBC71EE9F5F100E4F184 /* boxes.png */; };
+		22A613681EE9FD34003A09A7 /* boxes@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2251EBC91EE9F62400E4F184 /* boxes@2x.png */; };
+		22A613691EE9FD36003A09A7 /* boxes@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2251EBC81EE9F62400E4F184 /* boxes@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		22275AE41EE9FB290058A4AA /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		2251EBB21EE9F4A300E4F184 /* BoldTemplateImageRendering.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoldTemplateImageRendering.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2251EBB51EE9F4A300E4F184 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2251EBB71EE9F4A300E4F184 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2251EBBA1EE9F4A300E4F184 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2251EBBC1EE9F4A300E4F184 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2251EBBF1EE9F4A300E4F184 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2251EBC11EE9F4A300E4F184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2251EBC71EE9F5F100E4F184 /* boxes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boxes.png; sourceTree = "<group>"; };
+		2251EBC81EE9F62400E4F184 /* boxes@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "boxes@3x.png"; sourceTree = "<group>"; };
+		2251EBC91EE9F62400E4F184 /* boxes@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "boxes@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +62,13 @@
 			children = (
 				2251EBB51EE9F4A300E4F184 /* AppDelegate.swift */,
 				2251EBB71EE9F4A300E4F184 /* ViewController.swift */,
-				2251EBB91EE9F4A300E4F184 /* Main.storyboard */,
+				22275AE41EE9FB290058A4AA /* Main.storyboard */,
 				2251EBBC1EE9F4A300E4F184 /* Assets.xcassets */,
 				2251EBBE1EE9F4A300E4F184 /* LaunchScreen.storyboard */,
 				2251EBC11EE9F4A300E4F184 /* Info.plist */,
+				2251EBC71EE9F5F100E4F184 /* boxes.png */,
+				2251EBC91EE9F62400E4F184 /* boxes@2x.png */,
+				2251EBC81EE9F62400E4F184 /* boxes@3x.png */,
 			);
 			path = BoldTemplateImageRendering;
 			sourceTree = "<group>";
@@ -122,9 +131,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22275AE51EE9FB290058A4AA /* Main.storyboard in Resources */,
 				2251EBC01EE9F4A300E4F184 /* LaunchScreen.storyboard in Resources */,
+				22A613671EE9FD33003A09A7 /* boxes.png in Resources */,
+				22A613681EE9FD34003A09A7 /* boxes@2x.png in Resources */,
+				22A613691EE9FD36003A09A7 /* boxes@3x.png in Resources */,
 				2251EBBD1EE9F4A300E4F184 /* Assets.xcassets in Resources */,
-				2251EBBB1EE9F4A300E4F184 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,14 +155,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2251EBB91EE9F4A300E4F184 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2251EBBA1EE9F4A300E4F184 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2251EBBE1EE9F4A300E4F184 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -208,7 +212,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -257,7 +261,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -274,7 +278,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lithium3141.BoldTemplateImageRendering;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -288,7 +292,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lithium3141.BoldTemplateImageRendering;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -312,6 +316,7 @@
 				2251EBC61EE9F4A300E4F184 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
